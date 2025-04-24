@@ -1,0 +1,14 @@
+[
+    {
+        "username": "lkhagvasuren",
+        "password": "admin",
+        "img": "assets/images/profile.jpg",
+        "phone-number": "99123456",
+        "social-links": {
+            "facebook": "https://www.facebook.com/lkhagvacuren",
+            "instagram": "https://www.instagram.com/lkhagvacuren"
+        },
+        "name": "Lkhagvasuren Bat",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+]

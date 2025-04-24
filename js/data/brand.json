@@ -1,0 +1,42 @@
+[
+    {
+        "brand": "adidas",
+        "logo": "assets/brand/adidas.png"
+    },
+    {
+        "brand": "nike",
+        "logo": "assets/brand/nike.png"
+    },
+    {
+        "brand": "versace",
+        "logo": "assets/brand/versace.png"
+    },
+    {
+        "brand": "hermes",
+        "logo": "assets/brand/hermes.png"
+    },
+    {
+        "brand": "ralphlauren",
+        "logo": "assets/brand/ralphlauren.png"
+    },
+    {
+        "brand": "hnm",
+        "logo": "assets/brand/hnm.png"
+    },
+    {
+        "brand": "michealKors",
+        "logo": "assets/brand/michaelkors.png"
+    },
+    {
+        "brand": "zara",
+        "logo": "assets/brand/zara.png"
+    },
+    {
+        "brand": "puma",
+        "logo": "assets/brand/puma.png"
+    },
+    {
+        "brand": "dickies",
+        "logo": "assets/brand/dickies.png"
+    }
+]

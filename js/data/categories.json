@@ -1,0 +1,27 @@
+[
+  {
+    "image": "assets/shoes.jpg",
+    "alt": "shoes",
+    "label": "Shoes"
+  },
+  {
+    "image": "assets/jeans.jpg",
+    "alt": "jeans",
+    "label": "Jeans"
+  },
+  {
+    "image": "assets/accessories.jpg",
+    "alt": "accessories",
+    "label": "Accessories"
+  },
+  {
+    "image": "assets/backpack.jpg",
+    "alt": "backpack",
+    "label": "Backpack"
+  },
+  {
+    "image": "assets/dress.png",
+    "alt": "dress",
+    "label": "Dress"
+  }
+]

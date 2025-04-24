@@ -1,0 +1,71 @@
+.search-box {
+    position: relative;
+    display: flex;
+    flex:1;
+    max-width: var(--search-box-size);
+    margin: auto;
+    padding: var(--space-sm);
+    border: var(--border-solid);
+    border-radius: var(--border-radius-md);
+    z-index: 99;
+}
+.search-back-icon{
+    display: none;
+    fill: var(--primary-color);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.search-box svg{
+    width: var(--search-svg-size);
+    height: auto;
+    padding: var(--space-xs) var(--space-sm);
+    z-index: 2;
+}
+.search-box input {
+    width: 100%;
+    height: 100%;
+    padding: var(--space-xs);  
+    border: none;
+    border-radius: var(--border-radius-md);
+    z-index: 2;
+}
+.search-box input:focus{
+    outline: none;
+}
+/* I guess it does not work */
+.search-dropdown {
+  display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 100px; /*change px in the future*/
+    background: white;
+    border: 1px solid var(--line-color);
+    border-radius: var(--border-radius-sm) ;
+    z-index: 1;
+  }
+.search-box:focus-within .search-dropdown {
+    display: block;
+  }
+  .search-dropdown li {
+    padding: 10px;
+    cursor: pointer;
+  } 
+  .search-dropdown li:hover {
+    background-color: #f2f2f2;
+  }
+@media (max-width: 767px) {
+    .search-box:focus-within {
+      position: fixed;
+      width: calc(100% - 40px);
+      z-index: 999;
+      padding: var(--space-md);
+      .search-back-icon{
+        display: block;
+    }
+    }
+  
+
+  }
