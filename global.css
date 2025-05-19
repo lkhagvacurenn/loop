@@ -117,7 +117,6 @@ a{
     justify-items:flex-start;
     margin: auto;
     section{
-     width: 100%;
-    padding:var(--space-md) var(--space-lg);
+     padding:var(--space-lg);
     }
 }

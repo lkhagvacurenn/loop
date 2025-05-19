@@ -1,26 +1,26 @@
 [
   {
-    "image": "assets/shoes.jpg",
+    "image": "assets/others/shoes.jpg",
     "alt": "shoes",
     "label": "Shoes"
   },
   {
-    "image": "assets/jeans.jpg",
+    "image": "assets/others/jeans.jpg",
     "alt": "jeans",
     "label": "Jeans"
   },
   {
-    "image": "assets/accessories.jpg",
+    "image": "assets/others/accessories.jpg",
     "alt": "accessories",
     "label": "Accessories"
   },
   {
-    "image": "assets/backpack.jpg",
+    "image": "assets/others/backpack.jpg",
     "alt": "backpack",
     "label": "Backpack"
   },
   {
-    "image": "assets/dress.png",
+    "image": "assets/others/dress.png",
     "alt": "dress",
     "label": "Dress"
   }

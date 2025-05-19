@@ -1,5 +1,7 @@
 import { header } from './components/header.js';
+import './components/navbar.js'; // navbar биш шүү!
 import { footer } from './components/footer.js';
+import { updateFavBadge } from './utils/fav-utils.js';
 import router from './router.js';
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -8,15 +10,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const headerElement = document.createElement("header");
   headerElement.innerHTML = header();
 
+  const navElement = document.createElement("category-navbar");
+
   const mainElement = document.createElement("main");
   mainElement.setAttribute("id", "main-content");
 
   const footerElement = document.createElement("footer");
   footerElement.innerHTML = footer();
 
-  app.appendChild(headerElement);
-  app.appendChild(mainElement);
-  app.appendChild(footerElement);
+  app.append(headerElement, navElement, mainElement, footerElement);
+  
+  updateFavBadge();
 
   // ✅ Load route on page load
   router();

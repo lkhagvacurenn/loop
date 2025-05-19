@@ -1,4 +1,4 @@
-import Button from './button.js';
+import Btn from './buttons/btn.js';
 
 export default function HeroBox({ image, alt, label, action }) {
   const figure = document.createElement('figure');
@@ -11,7 +11,7 @@ export default function HeroBox({ image, alt, label, action }) {
   const caption = document.createElement('figcaption');
   caption.className = 'hero-btn';
 
-  const button = Button({ label, action });
+  const button = Btn({ label, action });
 
   caption.appendChild(button);
   figure.append(img, caption);

@@ -11,8 +11,8 @@ export default async function HomePage() {
     const herosection = document.createElement('section');
     herosection.className = 'hero-section';
     herosection.append(
-      HeroBox({ image: '/assets/dress.png', alt: 'sell', label: 'Sell Now', action: '/form.html' }),
-      HeroBox({ image: '/assets/top.png', alt: 'shop', label: 'Shop Now', action: '/index.html' })
+      HeroBox({ image: '/assets/others/dress.png', alt: 'sell', label: 'Sell Now', action: '/form.html' }),
+      HeroBox({ image: '/assets/others/top.png', alt: 'shop', label: 'Shop Now', action: '/index.html' })
     );
   
     // Main section
